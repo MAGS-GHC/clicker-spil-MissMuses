@@ -19,6 +19,7 @@ if (Bears >=10 && UpBears===0) { //Når brugt giver den ikke lægnere 0 og stopp
     UpBears +=4;
     Bears -=10;
     document.getElementById("TheBears").innerHTML = Bears; 
+
 }
 
 }
@@ -28,14 +29,17 @@ if (Bears >=10 && UpBears===0) { //Når brugt giver den ikke lægnere 0 og stopp
 let intervalAutoClick = window.setInterval(autoClicker, 1000)
 
 function autoClicker(){
-Bears+=10
+Bears+=10;
+
 
 
 }
 let upgradetrue = false
 function Autoupgrade(){
-if (upgradetrue === false){
+if (upgradetrue === false && Bears>=10){
 upgradetrue=true
+Bears-=10
+
 
 
 }
