@@ -22,3 +22,23 @@ if (Bears >=10 && UpBears===0) { //Når brugt giver den ikke lægnere 0 og stopp
 }
 
 }
+
+//Autoclicker
+
+let intervalAutoClick = window.setInterval(autoClicker, 1000)
+
+function autoClicker(){
+Bears+=10
+
+
+}
+let upgradetrue = false
+function Autoupgrade(){
+if (upgradetrue === false){
+upgradetrue=true
+
+
+}
+
+
+}
