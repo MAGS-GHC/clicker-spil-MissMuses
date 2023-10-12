@@ -20,7 +20,7 @@ if (Bears >=10 && UpBears===0) { //Når brugt giver den ikke lægnere 0 og stopp
     UpBears +=4;//+4 i stedet for +5 da vi allerede har stated 1+
     Bears -=10;
     document.getElementById("TheBears").innerHTML = Bears; 
-   
+    document.getElementById("CheckUpgrade").innerHTML = "Activated!"; 
 }
 
 }
@@ -47,7 +47,7 @@ function Autoupgrade(){
 if (upgradetrue === false && Bears>=10){//Tjekker hvis begge er true og afvikler derefter funktionerne
 upgradetrue=true
 Bears-=10 //Det koster 10 bamser for autoclicker 
-
+document.getElementById("CheckUpgrade2").innerHTML = "Activated!"; 
 
 
 }
