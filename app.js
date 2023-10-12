@@ -63,7 +63,7 @@ function Highscore(){
 
 if (Highscores <Bears) {
 Highscores=Bears
-document.getElementById("highscore").innerHTML = Highscores;
+document.getElementById("highscore").innerHTML = ("Tjek my bear score!:  " + Highscores)
 
 
 }
