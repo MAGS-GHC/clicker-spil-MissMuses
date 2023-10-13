@@ -27,7 +27,7 @@ if (Bears >=10 && UpBears===0) { //Når brugt giver den ikke lægnere 0 og stopp
 
 //Autoclicker
 
-let intervalAutoClick = window.setInterval(autoClicker, 1000)// = 1  sekund
+let intervalAutoClick = window.setInterval(autoClicker, 10000)// = 10  sekund
 
 function autoClicker(){
 if (upgradetrue === true){
