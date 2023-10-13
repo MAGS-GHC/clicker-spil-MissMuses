@@ -57,7 +57,7 @@ document.getElementById("CheckUpgrade2").innerHTML = "Activated!";
 
 //Highscore
 
-let Highscores = 25
+let Highscores = 0
 
 function Highscore(){
 
