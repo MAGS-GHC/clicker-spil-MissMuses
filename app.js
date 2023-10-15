@@ -10,6 +10,7 @@
         document.getElementById("TheBears").innerHTML = Bears;
         document.getElementById("Counter").innerHTML = Bears; 
         Highscore()
+        
     }
 
 
@@ -36,10 +37,12 @@ if (upgradetrue === true){
 if (upgradetrue===true && UpBears===4){ //Står til 4 i stedet for 5 husk 1+ ved første klik
     Bears+=(1+UpBears);//+1 da vi har 4 og mangler 1 til at give 5 ^ 
     document.getElementById("Counter").innerHTML = Bears;
+    
 
 }
 }
 
+Highscore() // Efter tuborg for at tage det hele med i giraf update
 
 }
 let upgradetrue = false
